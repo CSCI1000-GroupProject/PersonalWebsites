@@ -17,7 +17,7 @@ export default function Home() {
         </p>
         <p className='description2'>
           Next, each team member will create their own about me file in the
-          pages directory:{' '}
+          pages directory:{'http://steady-bubblegum-709281.netlify.app/'}
         </p>
         <code>src/page/teamMemberName.js</code>
 
