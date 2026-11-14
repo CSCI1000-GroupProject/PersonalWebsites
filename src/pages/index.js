@@ -57,9 +57,9 @@
   <div class="buttons">
     <!-- Replace each INSERT_LINK_HERE with the real URL -->
     <a href="bryson.js">Bryson</a>
-    <a href="INSERT_LINK_HERE">Christian</a>
-    <a href="INSERT_LINK_HERE">Caleb</a>
-    <a href="INSERT_LINK_HERE">Addiskidan</a>
+    <a href="christian.js">Christian</a>
+    <a href="caleb.js">Caleb</a>
+    <a href="addiskidan.js">Addiskidan</a>
   </div>
 
 </body>
