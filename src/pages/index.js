@@ -1,10 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our GitHub Group Project</title>
-  <style>
+import Head from "next/head";
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Our GitHub Group Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+
+      <h1>Welcome to our GitHub Group Project</h1>
+
+      <div className="buttons">
+        <a href="/bryson">Bryson</a>
+        <a href="/christian">Christian</a>
+        <a href="/caleb">Caleb</a>
+        <a href="/addiskidan">Addiskidan</a>
+      </div>
+
+      <style jsx global>{`
     body {
       margin: 0;
       min-height: 100vh;
@@ -48,19 +61,7 @@
       background: #2ea043;
       transform: translateY(-3px);
     }
-  </style>
-</head>
-<body>
-
-  <h1>Welcome to our GitHub Group Project</h1>
-
-  <div class="buttons">
-    <!-- Replace each INSERT_LINK_HERE with the real URL -->
-    <a href="bryson.js">Bryson</a>
-    <a href="christian.js">Christian</a>
-    <a href="caleb.js">Caleb</a>
-    <a href="addiskidan.js">Addiskidan</a>
-  </div>
-
-</body>
-</html>
+      `}</style>
+    </>
+  );
+}
